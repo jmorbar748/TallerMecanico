@@ -19,9 +19,7 @@ public class Cliente {
     }
 
     public Cliente(Cliente cliente) {
-        if (cliente == null) {
-            throw new NullPointerException("No es posible copiar un cliente nulo.");
-        }
+        Objects.requireNonNull(cliente,"No es posible copiar un cliente nulo.");
         this.nombre = cliente.nombre;
         this.dni = cliente.dni;
         this.telefono = cliente.telefono;
@@ -35,8 +33,7 @@ public class Cliente {
         if (nombre == null) {
             throw new NullPointerException("El nombre no puede ser nulo.");
         }
-        String nombreTrimmed = nombre.trim();
-        if (!Pattern.matches(ER_NOMBRE, nombreTrimmed)) {
+        if (!Pattern.matches(ER_NOMBRE, nombre)) {
             throw new IllegalArgumentException("El nombre no tiene un formato válido.");
         }
         this.nombre = nombre;
@@ -50,14 +47,13 @@ public class Cliente {
         if (dni == null) {
             throw new NullPointerException("El DNI no puede ser nulo.");
         }
-        String dniTrimmed = dni.trim();
-        if (!Pattern.matches(ER_DNI, dniTrimmed)) {
+        if (!Pattern.matches(ER_DNI, dni)) {
             throw new IllegalArgumentException("El DNI no tiene un formato válido.");
         }
-        if (!comprobarLetraDni(dniTrimmed)) {
+        if (!comprobarLetraDni(dni)) {
             throw new IllegalArgumentException("La letra del DNI no es correcta.");
         }
-        this.dni = dniTrimmed;
+        this.dni = dni;
     }
 
     public String getTelefono() {
@@ -87,14 +83,13 @@ public class Cliente {
         if (dni == null) {
             throw new NullPointerException("El DNI no puede ser nulo.");
         }
-        String dniTrimmed = dni.trim();
-        if (!Pattern.matches(ER_DNI, dniTrimmed)) {
+        if (!Pattern.matches(ER_DNI, dni)) {
             throw new IllegalArgumentException("El DNI no tiene un formato válido.");
         }
 
-        Cliente cliente = new Cliente("Patricio Estrella", dniTrimmed, "950111111");
+        Cliente cliente = new Cliente("Patricio Estrella", dni, "950111111");
 
-        if (!cliente.comprobarLetraDni(dniTrimmed)) {
+        if (!cliente.comprobarLetraDni(dni)) {
             throw new IllegalArgumentException("La letra del DNI no es correcta.");
         }
 
