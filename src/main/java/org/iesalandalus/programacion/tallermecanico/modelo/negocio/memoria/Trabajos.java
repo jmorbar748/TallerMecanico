@@ -50,7 +50,7 @@ public class Trabajos implements ITrabajos {
 
     public void insertar(Trabajo trabajo) throws TallerMecanicoExcepcion {
         if (trabajo == null) {
-            throw new NullPointerException("No se puede insertar una revisión nula.");
+            throw new NullPointerException("No se puede insertar un trabajo nulo.");
         }
         comprobarRevision(trabajo.getCliente(), trabajo.getVehiculo(), trabajo.getFechaInicio());
         Trabajo revisionExistente = buscar(trabajo);
@@ -103,6 +103,7 @@ public class Trabajos implements ITrabajos {
 
     @Override
     public Trabajo anadirHoras(Trabajo trabajo, int horas) throws TallerMecanicoExcepcion {
+        Objects.requireNonNull(trabajo, "No puedo añadir horas a un trabajo nulo.");
         Trabajo trabajoEncontrado = getTrabajoAbierto(trabajo.getVehiculo());
         trabajoEncontrado.anadirHoras(horas);
         return trabajoEncontrado;
