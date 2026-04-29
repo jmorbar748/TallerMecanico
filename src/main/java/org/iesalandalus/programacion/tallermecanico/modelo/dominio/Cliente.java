@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.regex.Pattern;
 
 public class Cliente {
-    private static final String ER_NOMBRE = "[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+( [A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*+";
+    private static final String ER_NOMBRE = "[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+( [A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*";
     private static final String ER_DNI = "\\d{8}[A-Z]";
     private static final String ER_TELEFONO = "\\d{9}";
 
@@ -64,11 +64,10 @@ public class Cliente {
         if (telefono == null) {
             throw new NullPointerException("El teléfono no puede ser nulo.");
         }
-        String telefonoTrimmed = telefono.trim();
-        if (!Pattern.matches(ER_TELEFONO, telefonoTrimmed)) {
+        if (!Pattern.matches(ER_TELEFONO, telefono)) {
             throw new IllegalArgumentException("El teléfono no tiene un formato válido.");
         }
-        this.telefono = telefonoTrimmed;
+        this.telefono = telefono;
     }
 
     private boolean comprobarLetraDni(String dni) {
