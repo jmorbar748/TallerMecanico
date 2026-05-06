@@ -3158,7 +3158,7 @@
   <Codegen:External xmi:id="_XYI8EMWREe6GV74yg1DxAg" name="org.iesalandalus.programacion.tallermecanico.controlador.Controlador" base_Classifier="_XYHG4cWREe6GV74yg1DxAg"/>
   <Codegen:External xmi:id="_zBB_8My-Ee6KuY7X7xWG0g" name="org.iesalandalus.programacion.tallermecanico.modelo.negocio.FabricaFuenteDatos" base_Classifier="_zA8gYcy-Ee6KuY7X7xWG0g"/>
   <Codegen:External xmi:id="_0aP1oMy-Ee6KuY7X7xWG0g" name="org.iesalandalus.programacion.tallermecanico.modelo.dominio.Trabajo" base_Classifier="_0aMyUMy-Ee6KuY7X7xWG0g"/>
-  <Codegen:External xmi:id="_cp6-kMy_Ee6KuY7X7xWG0g" name="org.iesalandalus.programacion.tallermecanico.modelo.Modelo" base_Classifier="_0Z-I0My-Ee6KuY7X7xWG0g"/>
+  <Codegen:External xmi:id="_cp6-kMy_Ee6KuY7X7xWG0g" name="org.iesalandalus.programacion.tallermecanico.modelo.cascada.ModeloCascada" base_Classifier="_0Z-I0My-Ee6KuY7X7xWG0g"/>
   <Codegen:External xmi:id="_cqMEUMy_Ee6KuY7X7xWG0g" name="IFuenteDatos" base_Classifier="_cqKPIMy_Ee6KuY7X7xWG0g"/>
   <Codegen:External xmi:id="_cqOgkMy_Ee6KuY7X7xWG0g" name="FabricaFuenteDatos" base_Classifier="_cqMrYcy_Ee6KuY7X7xWG0g"/>
   <Codegen:External xmi:id="_cqVOQMy_Ee6KuY7X7xWG0g" name="Cliente" base_Classifier="_cqUAIMy_Ee6KuY7X7xWG0g"/>
