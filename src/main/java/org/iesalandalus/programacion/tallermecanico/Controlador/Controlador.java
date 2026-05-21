@@ -200,6 +200,5 @@ public class Controlador implements IControlador {
     }
 
     private void salir() {
-        // No hacemos nada
     }
 }

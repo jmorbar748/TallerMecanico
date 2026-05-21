@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b0e04e-6981-41d9-b2bd-c9ae382a0816" name="Changes" comment="fix: Modificaciones varias">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/Controlador/IControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f8b0e04e-6981-41d9-b2bd-c9ae382a0816" name="Changes" comment="feat: paquete controlador">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/Controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/Controlador/Controlador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,8 +156,8 @@
       <recent name="org.iesalandalus.programacion.tallermecanico.modelo.dominio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test">
-    <configuration name="All in TallerMecanico.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in TallerMecanico.test (1)">
+    <configuration name="All in TallerMecanico.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TallerMecanico.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -225,19 +223,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in TallerMecanico.test (1)" />
       <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test" />
       <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.negocio in TallerMecanico.test" />
-      <item itemvalue="JUnit.All in TallerMecanico.test" />
       <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.dominio in TallerMecanico.test" />
       <item itemvalue="JUnit.ModeloTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TallerMecanico.test (1)" />
         <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test" />
         <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.negocio in TallerMecanico.test" />
         <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.dominio in TallerMecanico.test" />
         <item itemvalue="JUnit.ModeloTest" />
-        <item itemvalue="JUnit.All in TallerMecanico.test" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778089650691</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: paquete controlador">
+      <option name="closed" value="true" />
+      <created>1779362006646</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779362006646</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +408,8 @@
     <MESSAGE value="feat: Varios" />
     <MESSAGE value="fix: Eliminar clases que ya no sirven" />
     <MESSAGE value="fix: Modificaciones varias" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Modificaciones varias" />
+    <MESSAGE value="feat: paquete controlador" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: paquete controlador" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TallerMecanico$RevisionTest.ic" NAME="RevisionTest Coverage Results" MODIFIED="1706862963586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
