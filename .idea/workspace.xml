@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b0e04e-6981-41d9-b2bd-c9ae382a0816" name="Changes" comment="fix: Modificaciones varias">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/FabricaVista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/eventos/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/eventos/GestorEventos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/eventos/ReceptorEventos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/texto/VistaTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/Controlador/IControlador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/Controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/Controlador/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/Consola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/texto/Consola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesalandalus/programacion/tallermecanico/vista/Vista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +52,8 @@
         <option value="JUnit5 Test Class" />
         <option value="Exception" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -85,12 +79,12 @@
     &quot;assignee&quot;: &quot;JRJimenezReyes&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JRJimenezReyes/TallerMecanico.git&quot;,
-    &quot;accountId&quot;: &quot;7afb4187-7209-404d-b356-a4a604097a01&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jmorbar748/TallerMecanico.git",
+    "accountId": "f9b78105-4a46-4ee2-a004-28900b9b07b8"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -106,6 +100,7 @@
   "keyToString": {
     "Gradle.Build TallerMecanico.executor": "Run",
     "Gradle.Tests in 'org.iesalandalus.programacion.tallermecanico.modelo'.executor": "Run",
+    "JUnit.All in TallerMecanico.test.executor": "Run",
     "JUnit.ClienteTest and 2 more.executor": "Run",
     "JUnit.ClienteTest and 4 more.executor": "Run",
     "JUnit.ClienteTest and 7 more.executor": "Run",
@@ -119,7 +114,9 @@
     "JUnit.TrabajosTest.executor": "Run",
     "JUnit.VehiculoTest.executor": "Run",
     "JUnit.VehiculosTest.executor": "Run",
+    "JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test.executor": "Run",
     "JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanicoResuelto.test.executor": "Run",
+    "JUnit.org.iesalandalus.programacion.tallermecanico.modelo.dominio in TallerMecanico.test.executor": "Run",
     "JUnit.org.iesalandalus.programacion.tallermecanico.modelo.negocio in TallerMecanico.test.executor": "Run",
     "RunOnceActivity.ChatTagsLlmMigration": "true",
     "RunOnceActivity.CodyAccountHistoryMigration": "true",
@@ -161,50 +158,11 @@
       <recent name="org.iesalandalus.programacion.tallermecanico.modelo.dominio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModeloTest">
-    <configuration name="ClienteTest and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test">
+    <configuration name="All in TallerMecanico.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TallerMecanico.test" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.ClienteTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.MecanicoTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.RevisionTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.TrabajoTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.VehiculoTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TallerMecanico.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesalandalus.programacion.tallermecanico.modelo.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesalandalus.programacion.tallermecanico.modelo.dominio" />
-      <option name="MAIN_CLASS_NAME" value="org.iesalandalus.programacion.tallermecanico.modelo.dominio.ClienteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModeloTest and 8 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TallerMecanico.test" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.ModeloTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.negocio.VehiculosTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.negocio.TrabajosTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.negocio.ClientesTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.VehiculoTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.TrabajoTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.RevisionTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.MecanicoTest" />
-        <pattern testClass="org.iesalandalus.programacion.tallermecanico.modelo.dominio.ClienteTest" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +182,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TallerMecanico.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesalandalus.programacion.tallermecanico.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesalandalus.programacion.tallermecanico.modelo" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.iesalandalus.programacion.tallermecanico.modelo.dominio in TallerMecanico.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TallerMecanico.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesalandalus.programacion.tallermecanico.modelo.dominio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesalandalus.programacion.tallermecanico.modelo.dominio" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.iesalandalus.programacion.tallermecanico.modelo.negocio in TallerMecanico.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TallerMecanico.test" />
       <extension name="coverage">
@@ -239,19 +225,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ModeloTest and 8 more" />
-      <item itemvalue="JUnit.ClienteTest" />
-      <item itemvalue="JUnit.ClienteTest and 4 more" />
+      <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test" />
       <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.negocio in TallerMecanico.test" />
+      <item itemvalue="JUnit.All in TallerMecanico.test" />
+      <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.dominio in TallerMecanico.test" />
       <item itemvalue="JUnit.ModeloTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModeloTest" />
-        <item itemvalue="JUnit.ModeloTest and 8 more" />
-        <item itemvalue="JUnit.ClienteTest and 4 more" />
-        <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo in TallerMecanico.test" />
         <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.negocio in TallerMecanico.test" />
+        <item itemvalue="JUnit.org.iesalandalus.programacion.tallermecanico.modelo.dominio in TallerMecanico.test" />
+        <item itemvalue="JUnit.ModeloTest" />
+        <item itemvalue="JUnit.All in TallerMecanico.test" />
       </list>
     </recent_temporary>
   </component>
